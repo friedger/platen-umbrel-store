@@ -13,4 +13,6 @@ services:
     image: nginx:alpine
     restart: on-failure
     volumes:
-      - ${APP_DATA_DIR}/data/www:/usr/share/nginx/html:ro
+      # www is writable: the inventory editor saves via nginx dav PUT.
+      - ${APP_DATA_DIR}/data/www:/usr/share/nginx/html
+      - ${APP_DATA_DIR}/data/conf:/etc/nginx/conf.d:ro
