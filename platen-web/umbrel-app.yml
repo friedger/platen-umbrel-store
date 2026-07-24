@@ -1,0 +1,19 @@
+manifestVersion: 1
+id: platen-web
+name: Platen Web
+tagline: Static home page for the household
+category: networking
+version: "1.0.0"
+port: 8080
+description: >-
+  Tiny nginx web server for the family landing page. Content lives in
+  the app's data directory (app-data/platen-web/data/www) and can be
+  updated with a simple rsync — no restart needed.
+developer: Friedger
+website: https://github.com/friedger
+repo: https://github.com/friedger/platen
+support: https://github.com/friedger/platen/issues
+gallery: []
+releaseNotes: ""
+dependencies: []
+path: ""
