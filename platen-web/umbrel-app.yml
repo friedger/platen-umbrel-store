@@ -10,9 +10,9 @@ description: >-
   the app's data directory (app-data/platen-web/data/www) and can be
   updated with a simple rsync — no restart needed.
 developer: Friedger
-website: https://github.com/friedger
-repo: https://github.com/friedger/platen
-support: https://github.com/friedger/platen/issues
+website: https://github.com/friedger/platen-umbrel-store
+repo: https://github.com/friedger/platen-umbrel-store
+support: https://github.com/friedger/platen-umbrel-store/issues
 gallery: []
 releaseNotes: ""
 dependencies: []
