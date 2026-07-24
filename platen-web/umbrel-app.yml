@@ -1,9 +1,10 @@
 manifestVersion: 1
 id: platen-web
 name: Platen Web
+icon: https://cdn.jsdelivr.net/gh/friedger/platen-umbrel-store@main/platen-web/icon.svg
 tagline: Static home page for the household
 category: networking
-version: "1.1.0"
+version: "1.1.1"
 port: 8080
 description: >-
   Tiny nginx web server for the family landing page. Content lives in
