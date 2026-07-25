@@ -12,6 +12,9 @@ services:
   server:
     image: nginx:alpine
     restart: on-failure
+    extra_hosts:
+      # lets nginx reach Barcode Buddy on the host (port 9280)
+      - "host.docker.internal:host-gateway"
     volumes:
       # www is writable: the inventory editor saves via nginx dav PUT.
       - ${APP_DATA_DIR}/data/www:/usr/share/nginx/html
